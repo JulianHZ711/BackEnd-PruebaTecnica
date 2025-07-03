@@ -1,0 +1,31 @@
+# ----------------------------------------
+# ARCHIVOS DE VISUAL STUDIO
+# ----------------------------------------
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ----------------------------------------
+# DIRECTORIOS DE COMPILACIÓN
+# ----------------------------------------
+bin/
+obj/
+
+# ----------------------------------------
+# ARCHIVOS DE PAQUETES
+# ----------------------------------------
+packages/
+*.nupkg
+*.snupkg
+
+# Evita que subas la cache de paquetes globales
+.nuget/
+
+# ----------------------------------------
+# ARCHIVOS DE CONFIGURACIÓN LOCALES
+# ----------------------------------------
+*.env
+*.local
+*.log*
